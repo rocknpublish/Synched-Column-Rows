@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<title></title>
+<style>
+ul {display: table; list-style: none; height:100%; border:1px solid green;}
+li {display:table-cell; width: 33%; position:relative; height:100%;}
+li:first-child, li:nth-child(2) {padding-right:18px;}
+.thisBlock {background-color:red; border:1px solid #777; display: block; height: auto; overflow:hidden; padding:10px; position: relative; width:98.5%; margin-top:12px;}
+.thisBlock:nth-child(1),last-child {background-color:red;  box-sizing: border-box; bottom:0px; display:table-cell; height:auto; min-height:42px; overflow:hidden; position:absolute; width:100%;} 
+</style>
+</head>
+<body>
+<a href="http://jsfiddle.net/robwellsmc/0d7fmks2/" target="_blank">See work in my JSFiddle account</a>
+
+<ul>
+    <li><div style="clear:both; overflow:hidden;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </div><div class="thisBlock">helllo</div> </li>
+    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <div class="thisBlock"></div></li>
+    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <div class="thisBlock"></div></li>
+</ul>
+    
+</body>
+</html>
